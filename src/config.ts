@@ -20,7 +20,7 @@ if (fs.existsSync("./config.yaml")) {
     chatGptRetryTimes: Number(process.env.CHAT_GPT_RETRY_TIMES),
     chatPrivateTiggerKeyword: process.env.CHAT_PRIVATE_TRIGGER_KEYWORD,
     openAIProxy: process.env.OPENAI_PROXY,
-    clearanceToken: process.env.CF_CLEARANCE,
+    clearanceToken: "Zq3T7gKvzd7ss52LSe0KSXLBFhcbnq4uT5xPN4.qbCM-1670829968-0-160",
     userAgent: process.env.USER_AGENT,
   };
 }
